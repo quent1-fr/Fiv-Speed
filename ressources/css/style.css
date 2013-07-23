@@ -1,0 +1,30 @@
+body{
+    background: #111;
+    font-family: Arial, Helvetica, "Liberation Sans", FreeSans,sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+#vitesse{
+    color: #C4EA8A; /* Couleur visible malgré le soleil */
+    /* Faites votre choix parmi les couleurs alternatives! */
+    /* color: #E23434; */
+    /* color: #33B5E5; */
+    text-align: center;
+    font-size: 260px;
+    font-weight: bold;
+    text-shadow: 0 0 50px #ADE55E; /* Certes, c'est peu esthétique. Cependant, ça améliore la visibilité au soleil */
+}
+
+#debug{
+    color: #33B5E5;
+    font-size: 15px;
+    background: #111;
+}
+#debug strong, #debug h1{
+    color: #E23434;
+}
+img{
+    width: 50px;
+    text-align: center;
+}
